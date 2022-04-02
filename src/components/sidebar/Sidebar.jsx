@@ -18,8 +18,10 @@ const Sidebar=()=>{
                     <h3 className="sidebarTitle">Dashboard</h3>
                     <ul className="sidebarList">
                         <li className='listitem'>
+                            <NavLink to = "/">
                             <LineStyleIcon className="sidebaricons"/>
                             Home
+                            </NavLink>
 
                         </li>
                         <li className='listitem'>
